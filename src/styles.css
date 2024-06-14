@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+
+/*COLORS*/
+:root{
+    --color-1-bg: #FFFFFF;
+    --color-2-card-bg: #DCE6FF;
+    --color-3-bg-circle: #5A8AFF;
+    --color-3-bg-aside: #A6BCFA;
+
+    --font-family-1: 'Jersey', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-1-bg);
+    font-family: var(--font-family-1);
+}
